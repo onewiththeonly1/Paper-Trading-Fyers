@@ -1,0 +1,840 @@
+[2026-01-22 14:58:17] [INFO] === Fast Trading Application Starting ===
+[2026-01-22 14:58:18] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 14:58:23] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 14:58:23] [INFO] Web server starting on port 8080
+[2026-01-22 14:58:23] [INFO] Application ready. Waiting for commands...
+[2026-01-22 14:58:44] [INFO] Quit command received
+[2026-01-22 14:58:44] [INFO] Cleaning up resources...
+[2026-01-22 15:11:18] [INFO] ============================================================
+[2026-01-22 15:11:18] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 15:11:18] [INFO] ============================================================
+[2026-01-22 15:11:18] [INFO] Connected to Fyers - User: SUMAN TIWARI
+[2026-01-22 15:11:18] [INFO] Initial instrument: NSE:NIFTY26JAN25000CE
+[2026-01-22 15:11:18] [INFO] Price update thread started
+[2026-01-22 15:14:26] [INFO] ============================================================
+[2026-01-22 15:14:26] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 15:14:26] [INFO] ============================================================
+[2026-01-22 15:14:26] [INFO] Connected to Fyers - User: SUMAN TIWARI
+[2026-01-22 15:14:26] [INFO] Initial instrument: NSE:NIFTY26JAN25000CE
+[2026-01-22 15:14:26] [INFO] Price update thread started
+[2026-01-22 15:14:26] [INFO] Web server starting on port 5000
+[2026-01-22 15:14:27] [INFO] Web server started on port 5000
+[2026-01-22 15:14:27] [INFO] Application started successfully
+[2026-01-22 15:16:02] [INFO] ============================================================
+[2026-01-22 15:16:02] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 15:16:02] [INFO] ============================================================
+[2026-01-22 15:16:03] [INFO] Connected to Fyers - User: SUMAN TIWARI
+[2026-01-22 15:16:03] [INFO] Initial instrument: NSE:NIFTY26JAN25000CE
+[2026-01-22 15:16:03] [INFO] Price update thread started
+[2026-01-22 15:16:03] [INFO] Web server starting on port 8080
+[2026-01-22 15:16:04] [INFO] Web server started on port 8080
+[2026-01-22 15:16:04] [INFO] Application started successfully
+[2026-01-22 15:16:43] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:16:43] [INFO] [PAPER] Order executed: 1 lots @ ₹382.55 (Order ID: PAPER000001)
+[2026-01-22 15:18:28] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:18:29] [ERROR] [PAPER] Order execution failed: Failed to fetch market depth: request limit reached
+[2026-01-22 15:18:29] [ERROR] Buy order failed: Failed to fetch market depth: request limit reached
+[2026-01-22 15:18:37] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:18:38] [INFO] [PAPER] Order executed: 1 lots @ ₹390.00 (Order ID: PAPER000002)
+[2026-01-22 15:18:46] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:18:46] [INFO] [PAPER] Order executed: 1 lots @ ₹390.50 (Order ID: PAPER000003)
+[2026-01-22 15:18:51] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:18:52] [INFO] [PAPER] Order executed: 1 lots @ ₹392.95 (Order ID: PAPER000004)
+[2026-01-22 15:18:55] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:18:55] [INFO] [PAPER] Order executed: 1 lots @ ₹390.20 (Order ID: PAPER000005)
+[2026-01-22 15:18:57] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:18:57] [INFO] [PAPER] Order executed: 1 lots @ ₹391.75 (Order ID: PAPER000006)
+[2026-01-22 15:18:59] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:18:59] [INFO] [PAPER] Order executed: 1 lots @ ₹392.20 (Order ID: PAPER000007)
+[2026-01-22 15:19:01] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:19:01] [INFO] [PAPER] Order executed: 1 lots @ ₹391.10 (Order ID: PAPER000008)
+[2026-01-22 15:19:03] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:19:03] [INFO] [PAPER] Order executed: 1 lots @ ₹391.05 (Order ID: PAPER000009)
+[2026-01-22 15:19:05] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:19:05] [INFO] [PAPER] Order executed: 1 lots @ ₹391.50 (Order ID: PAPER000010)
+[2026-01-22 15:19:07] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:19:08] [INFO] [PAPER] Order executed: 1 lots @ ₹392.40 (Order ID: PAPER000011)
+[2026-01-22 15:23:58] [ERROR] Main loop error: 'Position' object has no attribute 'net_lots'
+[2026-01-22 15:29:21] [INFO] ============================================================
+[2026-01-22 15:29:21] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 15:29:21] [INFO] ============================================================
+[2026-01-22 15:29:21] [INFO] Connected to Fyers - User: SUMAN TIWARI
+[2026-01-22 15:29:25] [INFO] Initial instrument: NSE:NIFTY26JAN25000CE
+[2026-01-22 15:29:25] [INFO] Price update thread started
+[2026-01-22 15:29:25] [INFO] Web server starting on port 5000
+[2026-01-22 15:29:26] [INFO] Web server started on port 5000
+[2026-01-22 15:29:26] [INFO] Application started successfully - console now silent
+[2026-01-22 15:37:27] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 15:37:27] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 15:37:32] [INFO] ============================================================
+[2026-01-22 15:37:32] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 15:37:32] [INFO] ============================================================
+[2026-01-22 15:37:38] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 15:37:38] [INFO] Web server starting on port 8080
+[2026-01-22 15:37:38] [INFO] Application ready. Waiting for commands...
+[2026-01-22 15:37:53] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:37:53] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 15:38:49] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:38:49] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 15:38:54] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:38:54] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 15:38:55] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:38:55] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000004)
+[2026-01-22 15:38:56] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:38:56] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000005)
+[2026-01-22 15:38:57] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:38:57] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000006)
+[2026-01-22 15:38:57] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:38:58] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000007)
+[2026-01-22 15:38:58] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:38:59] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000008)
+[2026-01-22 15:38:59] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:00] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000009)
+[2026-01-22 15:39:02] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:02] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000010)
+[2026-01-22 15:39:20] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:20] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000011)
+[2026-01-22 15:39:28] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:28] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000012)
+[2026-01-22 15:39:31] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:31] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000013)
+[2026-01-22 15:39:34] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:34] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000014)
+[2026-01-22 15:39:36] [INFO] [PAPER] Placing BUY order for 3 lots (195 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:36] [INFO] [PAPER] Order executed: 3 lots @ ₹398.05 (Order ID: PAPER000015)
+[2026-01-22 15:39:39] [INFO] [PAPER] Placing BUY order for 9 lots (585 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:39] [INFO] [PAPER] Order executed: 9 lots @ ₹398.05 (Order ID: PAPER000016)
+[2026-01-22 15:39:45] [INFO] [PAPER] Placing BUY order for 9 lots (585 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:45] [INFO] [PAPER] Order executed: 9 lots @ ₹398.05 (Order ID: PAPER000017)
+[2026-01-22 15:39:47] [INFO] [PAPER] Placing BUY order for 9 lots (585 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:47] [INFO] [PAPER] Order executed: 9 lots @ ₹398.05 (Order ID: PAPER000018)
+[2026-01-22 15:39:51] [INFO] [PAPER] Placing SELL order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:51] [INFO] [PAPER] Order executed: 1 lots @ ₹396.15 (Order ID: PAPER000019)
+[2026-01-22 15:39:52] [INFO] [PAPER] Placing SELL order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:53] [INFO] [PAPER] Order executed: 1 lots @ ₹396.15 (Order ID: PAPER000020)
+[2026-01-22 15:39:54] [INFO] [PAPER] Placing SELL order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:54] [INFO] [PAPER] Order executed: 1 lots @ ₹396.15 (Order ID: PAPER000021)
+[2026-01-22 15:39:56] [INFO] [PAPER] Placing SELL order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:57] [INFO] [PAPER] Order executed: 1 lots @ ₹396.15 (Order ID: PAPER000022)
+[2026-01-22 15:39:58] [INFO] [PAPER] Placing SELL order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:39:58] [INFO] [PAPER] Order executed: 1 lots @ ₹396.15 (Order ID: PAPER000023)
+[2026-01-22 15:40:08] [INFO] [PAPER] Placing SELL order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:40:08] [INFO] [PAPER] Order executed: 1 lots @ ₹396.15 (Order ID: PAPER000024)
+[2026-01-22 15:40:11] [INFO] [PAPER] Placing SELL order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:40:11] [INFO] [PAPER] Order executed: 1 lots @ ₹396.15 (Order ID: PAPER000025)
+[2026-01-22 15:40:14] [INFO] [PAPER] Placing SELL order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:40:14] [INFO] [PAPER] Order executed: 1 lots @ ₹396.15 (Order ID: PAPER000026)
+[2026-01-22 15:40:18] [INFO] CLOSE ALL command: closing 38 lots
+[2026-01-22 15:40:18] [INFO] [PAPER] Placing SELL order for 38 lots (2470 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:40:18] [INFO] [PAPER] Order executed: 38 lots @ ₹396.15 (Order ID: PAPER000027)
+[2026-01-22 15:41:42] [INFO] Changing instrument...
+[2026-01-22 15:41:51] [INFO] Selected instrument: NSE:BANKNIFTY26JAN58700CE (NSE) [INTRADAY]
+[2026-01-22 15:41:51] [INFO] Instrument updated to: NSE:BANKNIFTY26JAN58700CE (NSE) [INTRADAY]
+[2026-01-22 15:42:00] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:00] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000028)
+[2026-01-22 15:42:00] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:01] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000029)
+[2026-01-22 15:42:01] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:01] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000030)
+[2026-01-22 15:42:04] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:04] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000031)
+[2026-01-22 15:42:05] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:05] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000032)
+[2026-01-22 15:42:06] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:06] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000033)
+[2026-01-22 15:42:07] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:07] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000034)
+[2026-01-22 15:42:08] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:08] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000035)
+[2026-01-22 15:42:09] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:09] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000036)
+[2026-01-22 15:42:10] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:10] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000037)
+[2026-01-22 15:42:10] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:10] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000038)
+[2026-01-22 15:42:11] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:11] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000039)
+[2026-01-22 15:42:15] [INFO] CLOSE ALL command: closing 12 lots
+[2026-01-22 15:42:15] [INFO] [PAPER] Placing SELL order for 12 lots (360 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:15] [INFO] [PAPER] Order executed: 12 lots @ ₹775.00 (Order ID: PAPER000040)
+[2026-01-22 15:42:38] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:38] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000041)
+[2026-01-22 15:42:41] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:41] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000042)
+[2026-01-22 15:42:42] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:42] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000043)
+[2026-01-22 15:42:43] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:43] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000044)
+[2026-01-22 15:42:44] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:44] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000045)
+[2026-01-22 15:42:45] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:45] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000046)
+[2026-01-22 15:42:45] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:45] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000047)
+[2026-01-22 15:42:46] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:46] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000048)
+[2026-01-22 15:42:46] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:46] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000049)
+[2026-01-22 15:42:47] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:47] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000050)
+[2026-01-22 15:42:47] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:47] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000051)
+[2026-01-22 15:42:49] [INFO] CLOSE ALL command: closing 11 lots
+[2026-01-22 15:42:49] [INFO] [PAPER] Placing SELL order for 11 lots (330 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:42:50] [INFO] [PAPER] Order executed: 11 lots @ ₹775.00 (Order ID: PAPER000052)
+[2026-01-22 15:43:09] [INFO] Changing instrument...
+[2026-01-22 15:43:13] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 15:43:13] [INFO] Instrument updated to: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 15:54:13] [INFO] Received Ctrl+C, exiting...
+[2026-01-22 15:54:13] [INFO] Cleaning up resources...
+[2026-01-22 15:54:16] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 15:54:16] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 15:54:19] [INFO] ============================================================
+[2026-01-22 15:54:19] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 15:54:19] [INFO] ============================================================
+[2026-01-22 15:54:26] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 15:54:26] [INFO] Web server starting on port 8080
+[2026-01-22 15:54:27] [INFO] Application ready. Waiting for commands...
+[2026-01-22 15:54:40] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:54:40] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 15:54:43] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:54:43] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 15:54:44] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:54:44] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 15:54:47] [INFO] [PAPER] Placing BUY order for 5 lots (325 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:54:48] [INFO] [PAPER] Order executed: 5 lots @ ₹398.05 (Order ID: PAPER000004)
+[2026-01-22 15:54:48] [INFO] [PAPER] Placing BUY order for 4 lots (260 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:54:49] [INFO] [PAPER] Order executed: 4 lots @ ₹398.05 (Order ID: PAPER000005)
+[2026-01-22 15:54:50] [INFO] [PAPER] Placing BUY order for 3 lots (195 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:54:50] [INFO] [PAPER] Order executed: 3 lots @ ₹398.05 (Order ID: PAPER000006)
+[2026-01-22 15:54:50] [INFO] [PAPER] Placing BUY order for 4 lots (260 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:54:51] [INFO] [PAPER] Order executed: 4 lots @ ₹398.05 (Order ID: PAPER000007)
+[2026-01-22 15:54:51] [INFO] [PAPER] Placing BUY order for 5 lots (325 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:54:52] [INFO] [PAPER] Order executed: 5 lots @ ₹398.05 (Order ID: PAPER000008)
+[2026-01-22 15:54:53] [INFO] [PAPER] Placing BUY order for 5 lots (325 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:54:54] [INFO] [PAPER] Order executed: 5 lots @ ₹398.05 (Order ID: PAPER000009)
+[2026-01-22 15:54:56] [INFO] [PAPER] Placing BUY order for 5 lots (325 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:54:56] [INFO] [PAPER] Placing BUY order for 5 lots (325 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:54:56] [INFO] [PAPER] Order executed: 5 lots @ ₹398.05 (Order ID: PAPER000010)
+[2026-01-22 15:54:56] [INFO] [PAPER] Order executed: 5 lots @ ₹398.05 (Order ID: PAPER000011)
+[2026-01-22 15:54:57] [INFO] [PAPER] Placing BUY order for 5 lots (325 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:54:57] [INFO] [PAPER] Order executed: 5 lots @ ₹398.05 (Order ID: PAPER000012)
+[2026-01-22 15:54:58] [INFO] CLOSE ALL command: closing 44 lots
+[2026-01-22 15:54:58] [INFO] [PAPER] Placing SELL order for 44 lots (2860 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 15:54:58] [INFO] [PAPER] Order executed: 44 lots @ ₹396.15 (Order ID: PAPER000013)
+[2026-01-22 15:55:48] [INFO] Changing instrument...
+[2026-01-22 15:55:51] [INFO] Selected instrument: NSE:BANKNIFTY26JAN58700CE (NSE) [INTRADAY]
+[2026-01-22 15:55:51] [INFO] Instrument updated to: NSE:BANKNIFTY26JAN58700CE (NSE) [INTRADAY]
+[2026-01-22 15:55:54] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:55:54] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000014)
+[2026-01-22 15:55:55] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:55:55] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000015)
+[2026-01-22 15:55:56] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:55:56] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000016)
+[2026-01-22 15:55:56] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:55:56] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000017)
+[2026-01-22 15:55:56] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:55:57] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000018)
+[2026-01-22 15:55:57] [INFO] [PAPER] Placing BUY order for 2 lots (60 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:55:57] [INFO] [PAPER] Order executed: 2 lots @ ₹784.80 (Order ID: PAPER000019)
+[2026-01-22 15:55:57] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:55:57] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000020)
+[2026-01-22 15:55:57] [INFO] [PAPER] Placing BUY order for 2 lots (60 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:55:58] [INFO] [PAPER] Order executed: 2 lots @ ₹784.80 (Order ID: PAPER000021)
+[2026-01-22 15:55:58] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:55:58] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000022)
+[2026-01-22 15:55:58] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:55:58] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000023)
+[2026-01-22 15:55:58] [INFO] [PAPER] Placing BUY order for 2 lots (60 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:55:59] [INFO] [PAPER] Order executed: 2 lots @ ₹784.80 (Order ID: PAPER000024)
+[2026-01-22 15:55:59] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:55:59] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000025)
+[2026-01-22 15:55:59] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:55:59] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000026)
+[2026-01-22 15:55:59] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:00] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000027)
+[2026-01-22 15:56:00] [INFO] [PAPER] Placing BUY order for 2 lots (60 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:00] [INFO] [PAPER] Order executed: 2 lots @ ₹784.80 (Order ID: PAPER000028)
+[2026-01-22 15:56:00] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:00] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000029)
+[2026-01-22 15:56:00] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:00] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000030)
+[2026-01-22 15:56:01] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:01] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000031)
+[2026-01-22 15:56:01] [INFO] [PAPER] Placing BUY order for 2 lots (60 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:01] [INFO] [PAPER] Order executed: 2 lots @ ₹784.80 (Order ID: PAPER000032)
+[2026-01-22 15:56:01] [INFO] [PAPER] Placing BUY order for 2 lots (60 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:01] [INFO] [PAPER] Order executed: 2 lots @ ₹784.80 (Order ID: PAPER000033)
+[2026-01-22 15:56:02] [INFO] [PAPER] Placing BUY order for 2 lots (60 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:02] [INFO] [PAPER] Order executed: 2 lots @ ₹784.80 (Order ID: PAPER000034)
+[2026-01-22 15:56:02] [INFO] [PAPER] Placing BUY order for 2 lots (60 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:03] [INFO] [PAPER] Order executed: 2 lots @ ₹784.80 (Order ID: PAPER000035)
+[2026-01-22 15:56:03] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:03] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000036)
+[2026-01-22 15:56:03] [INFO] [PAPER] Placing BUY order for 1 lots (30 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:03] [INFO] [PAPER] Order executed: 1 lots @ ₹784.80 (Order ID: PAPER000037)
+[2026-01-22 15:56:05] [INFO] [PAPER] Placing SELL order for 3 lots (90 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:05] [INFO] [PAPER] Order executed: 3 lots @ ₹775.00 (Order ID: PAPER000038)
+[2026-01-22 15:56:09] [INFO] [PAPER] Placing SELL order for 5 lots (150 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:09] [INFO] [PAPER] Order executed: 5 lots @ ₹775.00 (Order ID: PAPER000039)
+[2026-01-22 15:56:13] [INFO] [PAPER] Placing SELL order for 8 lots (240 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:13] [INFO] [PAPER] Order executed: 8 lots @ ₹775.00 (Order ID: PAPER000040)
+[2026-01-22 15:56:14] [INFO] CLOSE ALL command: closing 16 lots
+[2026-01-22 15:56:14] [INFO] [PAPER] Placing SELL order for 16 lots (480 units) of NSE:BANKNIFTY26JAN58700CE
+[2026-01-22 15:56:14] [INFO] [PAPER] Order executed: 16 lots @ ₹775.00 (Order ID: PAPER000041)
+[2026-01-22 15:56:27] [INFO] Changing instrument...
+[2026-01-22 15:56:30] [INFO] Selected instrument: NSE:SBIN-EQ (NSE) [CNC]
+[2026-01-22 15:56:30] [INFO] Instrument updated to: NSE:SBIN-EQ (NSE) [CNC]
+[2026-01-22 15:56:31] [INFO] [PAPER] Placing BUY order for 1 lots (1 units) of NSE:SBIN-EQ
+[2026-01-22 15:56:32] [INFO] [PAPER] Order executed: 1 lots @ ₹1048.35 (Order ID: PAPER000042)
+[2026-01-22 15:56:33] [INFO] [PAPER] Placing BUY order for 1 lots (1 units) of NSE:SBIN-EQ
+[2026-01-22 15:56:33] [INFO] [PAPER] Order executed: 1 lots @ ₹1048.35 (Order ID: PAPER000043)
+[2026-01-22 15:56:34] [INFO] [PAPER] Placing BUY order for 1 lots (1 units) of NSE:SBIN-EQ
+[2026-01-22 15:56:34] [INFO] [PAPER] Order executed: 1 lots @ ₹1048.35 (Order ID: PAPER000044)
+[2026-01-22 15:56:35] [INFO] [PAPER] Placing SELL order for 2 lots (2 units) of NSE:SBIN-EQ
+[2026-01-22 15:56:35] [INFO] [PAPER] Order executed: 2 lots @ ₹1048.35 (Order ID: PAPER000045)
+[2026-01-22 15:56:36] [INFO] [PAPER] Placing BUY order for 1 lots (1 units) of NSE:SBIN-EQ
+[2026-01-22 15:56:36] [INFO] [PAPER] Order executed: 1 lots @ ₹1048.35 (Order ID: PAPER000046)
+[2026-01-22 15:56:37] [INFO] [PAPER] Placing BUY order for 1 lots (1 units) of NSE:SBIN-EQ
+[2026-01-22 15:56:37] [INFO] [PAPER] Order executed: 1 lots @ ₹1048.35 (Order ID: PAPER000047)
+[2026-01-22 15:56:38] [INFO] [PAPER] Placing SELL order for 2 lots (2 units) of NSE:SBIN-EQ
+[2026-01-22 15:56:38] [INFO] [PAPER] Order executed: 2 lots @ ₹1048.35 (Order ID: PAPER000048)
+[2026-01-22 15:56:40] [INFO] [PAPER] Placing SELL order for 2 lots (2 units) of NSE:SBIN-EQ
+[2026-01-22 15:56:40] [INFO] [PAPER] Order executed: 2 lots @ ₹1048.35 (Order ID: PAPER000049)
+[2026-01-22 15:56:43] [INFO] Quit command received
+[2026-01-22 15:56:43] [INFO] Cleaning up resources...
+[2026-01-22 16:02:43] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 16:02:44] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 16:02:56] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 16:02:56] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 16:03:23] [INFO] ============================================================
+[2026-01-22 16:03:23] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 16:03:23] [INFO] ============================================================
+[2026-01-22 16:03:27] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 16:03:27] [INFO] Web server starting on port 8080
+[2026-01-22 16:03:27] [INFO] Application ready. Waiting for commands...
+[2026-01-22 16:03:29] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:29] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 16:03:30] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:30] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 16:03:32] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:32] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 16:03:37] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:37] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000004)
+[2026-01-22 16:03:37] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:37] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000005)
+[2026-01-22 16:03:38] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:39] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000006)
+[2026-01-22 16:03:39] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:40] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000007)
+[2026-01-22 16:03:40] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:40] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000008)
+[2026-01-22 16:03:41] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:41] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000009)
+[2026-01-22 16:03:41] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:42] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000010)
+[2026-01-22 16:03:42] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:42] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000011)
+[2026-01-22 16:03:43] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:43] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000012)
+[2026-01-22 16:03:43] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:43] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000013)
+[2026-01-22 16:03:44] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:44] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000014)
+[2026-01-22 16:03:44] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:44] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000015)
+[2026-01-22 16:03:45] [INFO] [PAPER] Placing BUY order for 5 lots (325 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:45] [INFO] [PAPER] Order executed: 5 lots @ ₹398.05 (Order ID: PAPER000016)
+[2026-01-22 16:03:45] [INFO] [PAPER] Placing BUY order for 5 lots (325 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:46] [INFO] [PAPER] Order executed: 5 lots @ ₹398.05 (Order ID: PAPER000017)
+[2026-01-22 16:03:46] [INFO] [PAPER] Placing BUY order for 7 lots (455 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:47] [INFO] [PAPER] Order executed: 7 lots @ ₹398.05 (Order ID: PAPER000018)
+[2026-01-22 16:03:47] [INFO] [PAPER] Placing BUY order for 7 lots (455 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:47] [INFO] [PAPER] Order executed: 7 lots @ ₹398.05 (Order ID: PAPER000019)
+[2026-01-22 16:03:47] [INFO] [PAPER] Placing BUY order for 9 lots (585 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:48] [INFO] [PAPER] Order executed: 9 lots @ ₹398.05 (Order ID: PAPER000020)
+[2026-01-22 16:03:48] [INFO] [PAPER] Placing BUY order for 9 lots (585 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:48] [INFO] [PAPER] Order executed: 9 lots @ ₹398.05 (Order ID: PAPER000021)
+[2026-01-22 16:03:50] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:50] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000022)
+[2026-01-22 16:03:50] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:50] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000023)
+[2026-01-22 16:03:51] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:51] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000024)
+[2026-01-22 16:03:51] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:51] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000025)
+[2026-01-22 16:03:52] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:52] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000026)
+[2026-01-22 16:03:52] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:52] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000027)
+[2026-01-22 16:03:53] [INFO] [PAPER] Placing BUY order for 9 lots (585 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:53] [INFO] [PAPER] Order executed: 9 lots @ ₹398.05 (Order ID: PAPER000028)
+[2026-01-22 16:03:53] [INFO] [PAPER] Placing BUY order for 9 lots (585 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:53] [INFO] [PAPER] Order executed: 9 lots @ ₹398.05 (Order ID: PAPER000029)
+[2026-01-22 16:03:54] [INFO] [PAPER] Placing BUY order for 7 lots (455 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:54] [INFO] [PAPER] Order executed: 7 lots @ ₹398.05 (Order ID: PAPER000030)
+[2026-01-22 16:03:54] [INFO] [PAPER] Placing BUY order for 7 lots (455 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:54] [INFO] [PAPER] Order executed: 7 lots @ ₹398.05 (Order ID: PAPER000031)
+[2026-01-22 16:03:54] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:55] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000032)
+[2026-01-22 16:03:55] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:55] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000033)
+[2026-01-22 16:03:55] [INFO] [PAPER] Placing BUY order for 5 lots (325 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:55] [INFO] [PAPER] Order executed: 5 lots @ ₹398.05 (Order ID: PAPER000034)
+[2026-01-22 16:03:56] [INFO] [PAPER] Placing BUY order for 5 lots (325 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:56] [INFO] [PAPER] Order executed: 5 lots @ ₹398.05 (Order ID: PAPER000035)
+[2026-01-22 16:03:56] [INFO] [PAPER] Placing BUY order for 5 lots (325 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:56] [INFO] [PAPER] Order executed: 5 lots @ ₹398.05 (Order ID: PAPER000036)
+[2026-01-22 16:03:56] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:57] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000037)
+[2026-01-22 16:03:57] [INFO] [PAPER] Placing BUY order for 5 lots (325 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:57] [INFO] [PAPER] Order executed: 5 lots @ ₹398.05 (Order ID: PAPER000038)
+[2026-01-22 16:03:57] [INFO] [PAPER] Placing BUY order for 4 lots (260 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:57] [INFO] [PAPER] Order executed: 4 lots @ ₹398.05 (Order ID: PAPER000039)
+[2026-01-22 16:03:57] [INFO] [PAPER] Placing BUY order for 3 lots (195 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:57] [INFO] [PAPER] Order executed: 3 lots @ ₹398.05 (Order ID: PAPER000040)
+[2026-01-22 16:03:57] [INFO] [PAPER] Placing BUY order for 4 lots (260 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:58] [INFO] [PAPER] Order executed: 4 lots @ ₹398.05 (Order ID: PAPER000041)
+[2026-01-22 16:03:58] [INFO] [PAPER] Placing BUY order for 5 lots (325 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:58] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:58] [INFO] [PAPER] Order executed: 5 lots @ ₹398.05 (Order ID: PAPER000042)
+[2026-01-22 16:03:58] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000043)
+[2026-01-22 16:03:59] [INFO] [PAPER] Placing BUY order for 8 lots (520 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:59] [INFO] [PAPER] Order executed: 8 lots @ ₹398.05 (Order ID: PAPER000044)
+[2026-01-22 16:03:59] [INFO] [PAPER] Placing BUY order for 9 lots (585 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:03:59] [INFO] [PAPER] Order executed: 9 lots @ ₹398.05 (Order ID: PAPER000045)
+[2026-01-22 16:03:59] [INFO] [PAPER] Placing BUY order for 8 lots (520 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:00] [INFO] [PAPER] Order executed: 8 lots @ ₹398.05 (Order ID: PAPER000046)
+[2026-01-22 16:04:02] [INFO] [PAPER] Placing BUY order for 8 lots (520 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:02] [INFO] [PAPER] Placing BUY order for 8 lots (520 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:02] [INFO] [PAPER] Order executed: 8 lots @ ₹398.05 (Order ID: PAPER000047)
+[2026-01-22 16:04:02] [INFO] [PAPER] Order executed: 8 lots @ ₹398.05 (Order ID: PAPER000048)
+[2026-01-22 16:04:02] [INFO] [PAPER] Placing BUY order for 8 lots (520 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:03] [INFO] [PAPER] Order executed: 8 lots @ ₹398.05 (Order ID: PAPER000049)
+[2026-01-22 16:04:03] [INFO] [PAPER] Placing BUY order for 8 lots (520 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:03] [INFO] [PAPER] Order executed: 8 lots @ ₹398.05 (Order ID: PAPER000050)
+[2026-01-22 16:04:03] [INFO] [PAPER] Placing BUY order for 7 lots (455 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:03] [INFO] [PAPER] Order executed: 7 lots @ ₹398.05 (Order ID: PAPER000051)
+[2026-01-22 16:04:03] [INFO] [PAPER] Placing BUY order for 8 lots (520 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:04] [INFO] [PAPER] Order executed: 8 lots @ ₹398.05 (Order ID: PAPER000052)
+[2026-01-22 16:04:04] [INFO] [PAPER] Placing BUY order for 7 lots (455 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:04] [INFO] [PAPER] Order executed: 7 lots @ ₹398.05 (Order ID: PAPER000053)
+[2026-01-22 16:04:04] [INFO] [PAPER] Placing BUY order for 8 lots (520 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:04] [INFO] [PAPER] Order executed: 8 lots @ ₹398.05 (Order ID: PAPER000054)
+[2026-01-22 16:04:04] [INFO] [PAPER] Placing BUY order for 8 lots (520 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:05] [INFO] [PAPER] Order executed: 8 lots @ ₹398.05 (Order ID: PAPER000055)
+[2026-01-22 16:04:05] [INFO] [PAPER] Placing BUY order for 8 lots (520 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:05] [INFO] [PAPER] Order executed: 8 lots @ ₹398.05 (Order ID: PAPER000056)
+[2026-01-22 16:04:05] [INFO] [PAPER] Placing BUY order for 7 lots (455 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:05] [INFO] [PAPER] Order executed: 7 lots @ ₹398.05 (Order ID: PAPER000057)
+[2026-01-22 16:04:05] [INFO] [PAPER] Placing BUY order for 7 lots (455 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:05] [INFO] [PAPER] Order executed: 7 lots @ ₹398.05 (Order ID: PAPER000058)
+[2026-01-22 16:04:05] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:06] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000059)
+[2026-01-22 16:04:06] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:06] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000060)
+[2026-01-22 16:04:06] [INFO] [PAPER] Placing BUY order for 7 lots (455 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:06] [INFO] [PAPER] Placing BUY order for 7 lots (455 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:06] [INFO] [PAPER] Order executed: 7 lots @ ₹398.05 (Order ID: PAPER000061)
+[2026-01-22 16:04:06] [INFO] [PAPER] Order executed: 7 lots @ ₹398.05 (Order ID: PAPER000062)
+[2026-01-22 16:04:06] [INFO] [PAPER] Placing BUY order for 7 lots (455 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:06] [INFO] [PAPER] Order executed: 7 lots @ ₹398.05 (Order ID: PAPER000063)
+[2026-01-22 16:04:07] [INFO] [PAPER] Placing BUY order for 7 lots (455 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:07] [INFO] [PAPER] Order executed: 7 lots @ ₹398.05 (Order ID: PAPER000064)
+[2026-01-22 16:04:07] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:07] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000065)
+[2026-01-22 16:04:07] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:07] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000066)
+[2026-01-22 16:04:07] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:08] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000067)
+[2026-01-22 16:04:08] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:08] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:08] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000068)
+[2026-01-22 16:04:08] [INFO] [PAPER] Placing BUY order for 6 lots (390 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:08] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000069)
+[2026-01-22 16:04:09] [INFO] [PAPER] Order executed: 6 lots @ ₹398.05 (Order ID: PAPER000070)
+[2026-01-22 16:04:10] [INFO] CLOSE ALL command: closing 366 lots
+[2026-01-22 16:04:10] [INFO] [PAPER] Placing SELL order for 366 lots (23790 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:04:10] [INFO] [PAPER] Order executed: 366 lots @ ₹396.15 (Order ID: PAPER000071)
+[2026-01-22 16:08:22] [INFO] Received Ctrl+C, exiting...
+[2026-01-22 16:08:22] [INFO] Cleaning up resources...
+[2026-01-22 16:08:24] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 16:08:24] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 16:11:09] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 16:11:09] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 16:14:38] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 16:14:38] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 16:14:40] [INFO] ============================================================
+[2026-01-22 16:14:40] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 16:14:40] [INFO] ============================================================
+[2026-01-22 16:14:43] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 16:14:43] [INFO] Web server starting on port 8080
+[2026-01-22 16:14:44] [INFO] Application ready. Waiting for commands...
+[2026-01-22 16:14:51] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:14:52] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 16:14:52] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:14:52] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 16:14:58] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:14:58] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 16:14:59] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:14:59] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000004)
+[2026-01-22 16:15:02] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:15:02] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000005)
+[2026-01-22 16:15:03] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:15:03] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000006)
+[2026-01-22 16:15:03] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:15:03] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000007)
+[2026-01-22 16:15:04] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:15:04] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000008)
+[2026-01-22 16:15:10] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:15:10] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000009)
+[2026-01-22 16:15:12] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:15:12] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000010)
+[2026-01-22 16:15:14] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:15:14] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000011)
+[2026-01-22 16:15:15] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:15:15] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000012)
+[2026-01-22 16:15:15] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:15:15] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000013)
+[2026-01-22 16:15:17] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:15:17] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000014)
+[2026-01-22 16:15:17] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:15:17] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000015)
+[2026-01-22 16:15:18] [INFO] CLOSE ALL command: closing 15 lots
+[2026-01-22 16:15:18] [INFO] [PAPER] Placing SELL order for 15 lots (975 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:15:19] [INFO] [PAPER] Order executed: 15 lots @ ₹396.15 (Order ID: PAPER000016)
+[2026-01-22 16:17:18] [INFO] Quit command received
+[2026-01-22 16:17:18] [INFO] Cleaning up resources...
+[2026-01-22 16:17:20] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 16:17:20] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 16:17:22] [INFO] ============================================================
+[2026-01-22 16:17:22] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 16:17:22] [INFO] ============================================================
+[2026-01-22 16:17:22] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 16:17:22] [INFO] Web server starting on port 8080
+[2026-01-22 16:17:23] [INFO] Application ready. Waiting for commands...
+[2026-01-22 16:17:29] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:17:29] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 16:17:34] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:17:34] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 16:17:36] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:17:36] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 16:17:37] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:17:37] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000004)
+[2026-01-22 16:17:38] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:17:38] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000005)
+[2026-01-22 16:17:44] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:17:44] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000006)
+[2026-01-22 16:17:45] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:17:46] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000007)
+[2026-01-22 16:17:47] [INFO] CLOSE ALL command: closing 7 lots
+[2026-01-22 16:17:47] [INFO] [PAPER] Placing SELL order for 7 lots (455 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:17:47] [INFO] [PAPER] Order executed: 7 lots @ ₹396.15 (Order ID: PAPER000008)
+[2026-01-22 16:17:54] [INFO] Received Ctrl+C, exiting...
+[2026-01-22 16:17:54] [INFO] Cleaning up resources...
+[2026-01-22 16:17:59] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 16:18:00] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 16:18:00] [INFO] ============================================================
+[2026-01-22 16:18:00] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 16:18:00] [INFO] ============================================================
+[2026-01-22 16:18:01] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 16:18:01] [INFO] Web server starting on port 8080
+[2026-01-22 16:18:01] [INFO] Application ready. Waiting for commands...
+[2026-01-22 16:18:02] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:18:02] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 16:18:04] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:18:04] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 16:18:05] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:18:05] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 16:18:08] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:18:08] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000004)
+[2026-01-22 16:18:09] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:18:09] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000005)
+[2026-01-22 16:18:10] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:18:10] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000006)
+[2026-01-22 16:21:32] [INFO] Quit command received
+[2026-01-22 16:21:32] [INFO] Cleaning up resources...
+[2026-01-22 16:21:34] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 16:21:34] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 16:22:06] [INFO] ============================================================
+[2026-01-22 16:22:06] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 16:22:06] [INFO] ============================================================
+[2026-01-22 16:22:07] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 16:22:07] [INFO] Web server starting on port 8080
+[2026-01-22 16:22:08] [INFO] Application ready. Waiting for commands...
+[2026-01-22 16:22:08] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:22:09] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 16:22:10] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:22:10] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 16:22:11] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:22:11] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 16:25:40] [INFO] Quit command received
+[2026-01-22 16:25:40] [INFO] Cleaning up resources...
+[2026-01-22 16:25:42] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 16:25:42] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 16:25:47] [INFO] ============================================================
+[2026-01-22 16:25:47] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 16:25:47] [INFO] ============================================================
+[2026-01-22 16:25:48] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 16:25:48] [INFO] Web server starting on port 8080
+[2026-01-22 16:25:48] [INFO] Application ready. Waiting for commands...
+[2026-01-22 16:25:50] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:50] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 16:25:51] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:51] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 16:25:51] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:51] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 16:25:51] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:51] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000004)
+[2026-01-22 16:25:51] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:52] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000005)
+[2026-01-22 16:25:52] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:52] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000006)
+[2026-01-22 16:25:52] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:52] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:52] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000007)
+[2026-01-22 16:25:52] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:52] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000008)
+[2026-01-22 16:25:52] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:52] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000009)
+[2026-01-22 16:25:53] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000010)
+[2026-01-22 16:25:53] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:53] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000011)
+[2026-01-22 16:25:53] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:53] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000012)
+[2026-01-22 16:25:53] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:53] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000013)
+[2026-01-22 16:25:53] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:53] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000014)
+[2026-01-22 16:25:54] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:54] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000015)
+[2026-01-22 16:25:54] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:25:54] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000016)
+[2026-01-22 16:26:01] [INFO] Quit command received
+[2026-01-22 16:26:01] [INFO] Cleaning up resources...
+[2026-01-22 16:35:04] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 16:35:04] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 16:35:15] [INFO] ============================================================
+[2026-01-22 16:35:15] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 16:35:15] [INFO] ============================================================
+[2026-01-22 16:35:16] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 16:35:16] [INFO] Web server starting on port 8080
+[2026-01-22 16:35:17] [INFO] Application ready. Waiting for commands...
+[2026-01-22 16:35:19] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:35:19] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 16:35:34] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:35:35] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 16:35:35] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:35:35] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 16:35:36] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:35:36] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000004)
+[2026-01-22 16:35:37] [INFO] [PAPER] Placing SELL order for 3 lots (195 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:35:37] [INFO] [PAPER] Order executed: 3 lots @ ₹396.15 (Order ID: PAPER000005)
+[2026-01-22 16:35:39] [INFO] CLOSE ALL command: closing 1 lots
+[2026-01-22 16:35:39] [INFO] [PAPER] Placing SELL order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 16:35:39] [INFO] [PAPER] Order executed: 1 lots @ ₹396.15 (Order ID: PAPER000006)
+[2026-01-22 20:34:39] [INFO] Quit command received
+[2026-01-22 20:34:39] [INFO] Cleaning up resources...
+[2026-01-22 20:34:41] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 20:34:41] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 20:36:56] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 20:36:56] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 20:37:09] [INFO] ============================================================
+[2026-01-22 20:37:09] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 20:37:09] [INFO] ============================================================
+[2026-01-22 20:37:11] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 20:37:11] [INFO] Web server starting on port 8080
+[2026-01-22 20:37:12] [INFO] Application ready. Waiting for commands...
+[2026-01-22 20:40:42] [INFO] Quit command received
+[2026-01-22 20:40:42] [INFO] Cleaning up resources...
+[2026-01-22 20:40:44] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 20:40:44] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 20:40:48] [INFO] ============================================================
+[2026-01-22 20:40:48] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 20:40:48] [INFO] ============================================================
+[2026-01-22 20:40:51] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 20:40:51] [INFO] Web server starting on port 8080
+[2026-01-22 20:40:52] [INFO] Application ready. Waiting for commands...
+[2026-01-22 20:40:52] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:40:53] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 20:40:55] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:40:56] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 20:40:56] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:40:56] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 20:40:57] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:40:57] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000004)
+[2026-01-22 20:40:57] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:40:58] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000005)
+[2026-01-22 20:40:58] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:40:58] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000006)
+[2026-01-22 20:40:58] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:40:58] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000007)
+[2026-01-22 20:40:58] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:40:59] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000008)
+[2026-01-22 20:40:59] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:40:59] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000009)
+[2026-01-22 20:40:59] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:40:59] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000010)
+[2026-01-22 20:40:59] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:40:59] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000011)
+[2026-01-22 20:41:00] [INFO] [PAPER] Placing BUY order for 3 lots (195 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:41:00] [INFO] [PAPER] Order executed: 3 lots @ ₹398.05 (Order ID: PAPER000012)
+[2026-01-22 20:41:00] [INFO] [PAPER] Placing BUY order for 3 lots (195 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:41:00] [INFO] [PAPER] Order executed: 3 lots @ ₹398.05 (Order ID: PAPER000013)
+[2026-01-22 20:41:01] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:41:01] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000014)
+[2026-01-22 20:41:01] [INFO] [PAPER] Placing BUY order for 3 lots (195 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:41:01] [INFO] [PAPER] Order executed: 3 lots @ ₹398.05 (Order ID: PAPER000015)
+[2026-01-22 20:41:02] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:41:02] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000016)
+[2026-01-22 20:41:02] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:41:02] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:41:02] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000017)
+[2026-01-22 20:41:02] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000018)
+[2026-01-22 20:45:48] [INFO] Quit command received
+[2026-01-22 20:45:48] [INFO] Cleaning up resources...
+[2026-01-22 20:45:50] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 20:45:50] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 20:45:52] [INFO] ============================================================
+[2026-01-22 20:45:52] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 20:45:52] [INFO] ============================================================
+[2026-01-22 20:46:08] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 20:46:08] [INFO] Web server starting on port 8080
+[2026-01-22 20:46:09] [INFO] Application ready. Waiting for commands...
+[2026-01-22 20:46:10] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:10] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 20:46:11] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:11] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 20:46:12] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:12] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 20:46:12] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:13] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000004)
+[2026-01-22 20:46:13] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:13] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000005)
+[2026-01-22 20:46:13] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:13] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000006)
+[2026-01-22 20:46:14] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:14] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000007)
+[2026-01-22 20:46:14] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:14] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000008)
+[2026-01-22 20:46:14] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:14] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000009)
+[2026-01-22 20:46:14] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:15] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000010)
+[2026-01-22 20:46:15] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:15] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000011)
+[2026-01-22 20:46:15] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:15] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000012)
+[2026-01-22 20:46:15] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:15] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000013)
+[2026-01-22 20:46:15] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:16] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000014)
+[2026-01-22 20:46:16] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:16] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000015)
+[2026-01-22 20:46:16] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:16] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000016)
+[2026-01-22 20:46:16] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:16] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:16] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000017)
+[2026-01-22 20:46:16] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000018)
+[2026-01-22 20:46:17] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:17] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000019)
+[2026-01-22 20:46:17] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:17] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000020)
+[2026-01-22 20:46:17] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:17] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000021)
+[2026-01-22 20:46:17] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:18] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000022)
+[2026-01-22 20:46:18] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:46:18] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000023)
+[2026-01-22 20:47:12] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 20:47:13] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 20:47:14] [INFO] ============================================================
+[2026-01-22 20:47:14] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 20:47:14] [INFO] ============================================================
+[2026-01-22 20:47:15] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 20:47:15] [INFO] Web server starting on port 8080
+[2026-01-22 20:47:16] [INFO] Application ready. Waiting for commands...
+[2026-01-22 20:47:16] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:47:16] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 20:47:17] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:47:17] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:47:17] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:47:17] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 20:47:17] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 20:47:17] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000004)
+[2026-01-22 20:47:17] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:47:17] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000005)
+[2026-01-22 20:47:18] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:47:18] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000006)
+[2026-01-22 20:47:18] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:47:18] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000007)
+[2026-01-22 20:48:18] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 20:48:18] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 20:48:18] [INFO] ============================================================
+[2026-01-22 20:48:18] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 20:48:18] [INFO] ============================================================
+[2026-01-22 20:48:19] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 20:48:19] [INFO] Web server starting on port 8080
+[2026-01-22 20:48:20] [INFO] Application ready. Waiting for commands...
+[2026-01-22 20:48:23] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:48:23] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 20:48:24] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:48:24] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 20:48:26] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:48:26] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 20:48:27] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:48:27] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000004)
+[2026-01-22 20:48:27] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:48:28] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000005)
+[2026-01-22 20:48:28] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:48:28] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000006)
+[2026-01-22 20:48:29] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:48:29] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000007)
+[2026-01-22 20:48:29] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:48:30] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000008)
+[2026-01-22 20:48:30] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:48:30] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000009)
+[2026-01-22 20:53:58] [INFO] Quit command received
+[2026-01-22 20:53:58] [INFO] Cleaning up resources...
+[2026-01-22 20:54:00] [INFO] === Paper Trading Application Starting ===
+[2026-01-22 20:54:00] [INFO] Logged in as: SUMAN TIWARI (XS05563)
+[2026-01-22 20:54:02] [INFO] ============================================================
+[2026-01-22 20:54:02] [INFO] PAPER TRADING MODE - Simulated Trading
+[2026-01-22 20:54:02] [INFO] ============================================================
+[2026-01-22 20:54:04] [INFO] Selected instrument: NSE:NIFTY26JAN25000CE (NSE) [MARGIN]
+[2026-01-22 20:54:04] [INFO] Web server starting on port 8080
+[2026-01-22 20:54:04] [INFO] Application ready. Waiting for commands...
+[2026-01-22 20:54:05] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:05] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000001)
+[2026-01-22 20:54:06] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:06] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000002)
+[2026-01-22 20:54:06] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:06] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000003)
+[2026-01-22 20:54:07] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:07] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000004)
+[2026-01-22 20:54:07] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:07] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000005)
+[2026-01-22 20:54:07] [INFO] [PAPER] Placing BUY order for 2 lots (130 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:07] [INFO] [PAPER] Order executed: 2 lots @ ₹398.05 (Order ID: PAPER000006)
+[2026-01-22 20:54:07] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:08] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000007)
+[2026-01-22 20:54:08] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:08] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000008)
+[2026-01-22 20:54:08] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:08] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000009)
+[2026-01-22 20:54:08] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:08] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000010)
+[2026-01-22 20:54:09] [INFO] [PAPER] Placing SELL order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:09] [INFO] [PAPER] Order executed: 1 lots @ ₹396.15 (Order ID: PAPER000011)
+[2026-01-22 20:54:09] [INFO] [PAPER] Placing SELL order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:10] [INFO] [PAPER] Order executed: 1 lots @ ₹396.15 (Order ID: PAPER000012)
+[2026-01-22 20:54:11] [INFO] [PAPER] Placing SELL order for 8 lots (520 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:12] [INFO] [PAPER] Order executed: 8 lots @ ₹396.15 (Order ID: PAPER000013)
+[2026-01-22 20:54:12] [INFO] CLOSE ALL command: closing 3 lots
+[2026-01-22 20:54:12] [INFO] [PAPER] Placing SELL order for 3 lots (195 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:12] [INFO] [PAPER] Order executed: 3 lots @ ₹396.15 (Order ID: PAPER000014)
+[2026-01-22 20:54:14] [INFO] [PAPER] Placing BUY order for 1 lots (65 units) of NSE:NIFTY26JAN25000CE
+[2026-01-22 20:54:14] [INFO] [PAPER] Order executed: 1 lots @ ₹398.05 (Order ID: PAPER000015)
+[2026-01-22 20:54:15] [INFO] Quit command received
+[2026-01-22 20:54:15] [INFO] Cleaning up resources...

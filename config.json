@@ -1,0 +1,26 @@
+{
+  "app_id": "YOUR_APP_ID",
+  "app_secret": "YOUR_APP_SECRET",
+  "redirect_uri": "https://trade.fyers.in/api-login/redirect-uri/index.html",
+  "access_token": "WILL_BE_FILLED_BY_GENERATE_TOKEN_SCRIPT",
+  "instruments": [
+    {
+      "symbol": "NSE:NIFTY26JAN25000CE",
+      "exchange": "NSE",
+      "lot_size": 65,
+      "product": "MARGIN"
+    },
+    {
+      "symbol": "NSE:BANKNIFTY26JAN58700CE",
+      "exchange": "NSE",
+      "lot_size": 30,
+      "product": "INTRADAY"
+    },
+    {
+      "symbol": "NSE:SBIN-EQ",
+      "exchange": "NSE",
+      "lot_size": 1,
+      "product": "CNC"
+    }
+  ]
+}
