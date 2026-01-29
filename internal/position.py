@@ -5,6 +5,7 @@ Position and order management with Paper Trading support
 import threading
 import csv
 import logging
+import traceback
 from datetime import datetime
 from typing import List, Dict
 from pathlib import Path
@@ -196,6 +197,10 @@ class PositionManager:
             self.logger.warning(f"Invalid sell price for trade matching: {sell_price}")
             return
         
+        if not self.pending_buy_orders:
+            self.logger.warning("No pending buy orders to match against")
+            return
+        
         remaining_qty = sell_qty
         exit_time = datetime.now()
         
@@ -231,7 +236,7 @@ class PositionManager:
             idx -= 1
         
         # Create single trade record with averaged buy price
-        if total_matched_qty > 0 and total_buy_value > 0:
+        if total_matched_qty > 0 and total_buy_value > 0 and earliest_entry_time is not None:
             avg_buy_price = total_buy_value / total_matched_qty
             
             try:
@@ -247,9 +252,12 @@ class PositionManager:
                 
                 # Update session net P&L
                 self.session_net_pnl += trade.pnl
+                
+                self.logger.info(f"Trade created: {total_matched_qty} units, P&L: ₹{trade.pnl:.2f}")
             except Exception as e:
                 # Log but don't fail
                 self.logger.error(f"Error creating trade record: {e}")
+                self.logger.error(traceback.format_exc())
 
     def update_cmp(self, price: float):
         """Update current market price"""
@@ -364,7 +372,9 @@ class PositionManager:
                     for trade in self.trade_history:
                         writer.writerow(trade.to_dict())
                 
+                self.logger.info(f"Exported {len(self.trade_history)} trades to {filepath}")
                 return str(filepath)
             except Exception as e:
                 self.logger.error(f"Failed to export trades: {e}")
+                self.logger.error(traceback.format_exc())
                 return ""
