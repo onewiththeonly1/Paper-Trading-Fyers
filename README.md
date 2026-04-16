@@ -1,319 +1,119 @@
-# 🚀 Paper Trading Application - Fyers Edition
+# Paper Trading Application - Fyers Edition
 
 **Ultra-Low Latency | Single-Keystroke Trading | Paper Trading Mode | Web Dashboard | Python-Based**
 
 ---
 
-## 🎯 What This Application Offers
+## Table of Contents
 
-### ⚡ **Dual Trading Modes**
-
-* **PAPER TRADING** - Simulated trading with no real money at risk
-* **REAL TRADING** - Live order execution with actual capital
-* Switch between modes at startup with confirmation
-
-### ⚡ **Instant Single-Keystroke Trading**
-
-* No `Enter` key — every action is **immediate**
-* Buy, sell, close, change instruments, quit — all with **single keys**
-* Raw terminal input for zero latency
-
-### ⚡ **Instant Instrument Selection**
-
-* Select instruments using **1–9, A–Z**
-* Supports **up to 35 instruments**
-* Case-insensitive (`a` = `A`)
-* Press `Q` anytime to exit
-
-### 🧼 **Silent Console, Full Visibility**
-
-* Console goes silent after selection
-* **Everything logged** to `trading.log`
-* Real-time **log viewer in Web UI**
-* Clean, distraction-free trading
-
-### 📊 **Paper Trading Features**
-
-* **Realistic Execution** - Uses best bid/ask prices from market depth
-* **Trade Ledger** - Complete history of all round-trip trades
-* **Session Statistics** - Net P&L, win rate, total trades, and more
-* **CSV Export** - Export all trades for analysis
-* **FIFO Matching** - Accurate P&L calculation for partial exits
-
-### 🆓 **Fyers API - Free Tier Compatible**
-
-* Position tracking via **executed order prices**
-* Fully usable for **real trading**
-* No WebSocket required for basic functionality
-
-### 📈 **Optimized for Options & Equities**
-
-* NIFTY / BANKNIFTY / Equity supported
-* INTRADAY / MARGIN / CNC products
-* Intraday + positional strategies
+1. What This Application Offers
+2. Project Structure
+3. API Credentials & Configuration
+4. Important URLs
+5. Dependencies
+6. Setup & Installation
+7. Fyers API Setup
+8. Running the Application
+9. Trading Commands
+10. Web Dashboard
+11. Paper Trading Features
+12. Trade History & Analytics
+13. Change Instrument During Trading
+14. Best Practices
+15. Testing Guide
+16. Common Issues & Solutions
+17. Technical Artifacts
+18. Important Notes
 
 ---
 
-## 📁 Project Structure
+## 1. What This Application Offers
+
+### Dual Trading Modes
+
+- **PAPER TRADING** - Simulated trading with no real money at risk
+- **REAL TRADING** - Live order execution with actual capital
+- Switch between modes at startup with confirmation
+
+### Instant Single-Keystroke Trading
+
+- No `Enter` key — every action is **immediate**
+- Buy, sell, close, change instruments, quit — all with **single keys**
+- Raw terminal input for zero latency
+
+### Instant Instrument Selection
+
+- Select instruments using **1–9, A–Z**
+- Supports **up to 35 instruments**
+- Case-insensitive (`a` = `A`)
+- Press `Q` anytime to exit
+
+### Silent Console, Full Visibility
+
+- Console goes silent after selection
+- **Everything logged** to `trading.log`
+- Real-time **log viewer in Web UI**
+
+### Paper Trading Features
+
+- **Realistic Execution** - Uses best bid/ask prices from market depth
+- **Trade Ledger** - Complete history of all round-trip trades
+- **Session Statistics** - Net P&L, win rate, total trades, and more
+- **CSV Export** - Export all trades for analysis
+- **FIFO Matching** - Accurate P&L calculation for partial exits
+
+### Fyers API - Free Tier Compatible
+
+- Position tracking via **executed order prices**
+- Fully usable for **real trading**
+- No WebSocket required for basic functionality
+
+### Optimized for Options & Equities
+
+- NIFTY / BANKNIFTY / Equity supported
+- INTRADAY / MARGIN / CNC products
+
+---
+
+## 2. Project Structure
 
 ```
 paper-trading-fyers/
-├── main.py
-├── config.json
-├── trading.log
-├── generate_token.py
+├── main.py                 # Main application entry point
+├── generate_token.py       # Token generation script
+├── config.json             # Configuration (credentials, instruments)
+├── requirements.txt        # Python dependencies
+├── trading.log            # Application logs
+├── verify.py             # Verification script
 ├── internal/
 │   ├── __init__.py
-│   ├── config.py
-│   ├── logger.py
-│   ├── position.py
-│   ├── server.py
-│   ├── terminal.py
-│   └── trader.py
+│   ├── config.py          # Configuration management
+│   ├── logger.py          # Logging system
+│   ├── position.py        # Position & trade management
+│   ├── trader.py          # Order execution (Trader & PaperTrader)
+│   ├── terminal.py        # Raw terminal input handling
+│   └── server.py          # Flask web server
 ├── web/
-│   └── index.html
-├── trades/                    # Auto-created for CSV exports
-│   └── paper_trades_*.csv
-└── requirements.txt
+│   └── index.html         # Web dashboard UI
+└── trades/
+    └── paper_trades_*.csv # Exported trade history
 ```
 
 ---
 
-## 🚀 Quick Start
-
-### 1️⃣ Create Project
-
-```bash
-mkdir -p ~/paper-trading-fyers
-cd ~/paper-trading-fyers
-
-# Copy all files from the repository to this directory
-
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-### 2️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3️⃣ Setup Configuration
-
-1. Edit `config.json` with your Fyers API credentials
-2. Update instruments list with your trading symbols
-3. Generate access token (see below)
-
----
-
-## 🔐 Fyers API Setup
-
-1. Visit [https://myapi.fyers.in/dashboard/](https://myapi.fyers.in/dashboard/)
-2. Create **Personal App**
-3. Get `app_id`, `app_secret`, `redirect_uri`
-4. Update `config.json`
-
-### Generate Access Token
-
-```bash
-python generate_token.py
-```
-
-**Note:** Access tokens expire at 6:00 AM IST daily. Generate a new token each trading day.
-
----
-
-## ⚡ Trading Mode Selection
-
-When you start the application, you'll be prompted:
-
-```
-==============================================================
-TRADING MODE SELECTION
-==============================================================
-
-1. PAPER TRADING (Simulated - No real orders)
-2. REAL TRADING (Live orders - Real money)
-
-==============================================================
-Select mode (1 for Paper, 2 for Real):
-```
-
-### Paper Trading Mode
-* All orders are simulated
-* Uses real market bid/ask prices
-* No real money at risk
-* Perfect for testing strategies
-* Complete trade history with metrics
-
-### Real Trading Mode
-* Live order execution
-* Real capital at risk
-* Actual P&L impact
-* Requires careful consideration
-
----
-
-## ⚡ Instrument Selection – Single Keystroke
-
-### Key Mapping
-
-| Instrument # | Key     |
-| ------------ | ------- |
-| 1–9          | `1`–`9` |
-| 10–35        | `A`–`Z` |
-| Quit         | `Q`     |
-
-**Maximum instruments:** 35
-
----
-
-## 🎮 Trading Commands (No Enter Ever)
-
-| Key       | Action              |
-| --------- | ------------------- |
-| `1`–`9`   | Buy lots            |
-| `-1`–`-9` | Sell lots           |
-| `--`      | Close all positions |
-| `C`       | Change instrument   |
-| `Q`       | Quit app            |
-
-**Console stays silent — use Web UI**
-
----
-
-## 🌐 Web Dashboard
-
-### 📊 Features
-
-#### All Modes:
-* Real-time Positions Panel
-* Live MTM P&L (₹ and %)
-* Order History
-* Activity Logs (Live)
-* Auto-scroll
-
-#### Paper Trading Only:
-* **Session Statistics** - Net P&L, total trades, win rate
-* **Trade Ledger** - Complete round-trip trade history with:
-  * Entry/Exit timestamps
-  * Entry/Exit prices
-  * Quantity traded
-  * Duration in seconds
-  * P&L amount and percentage
-  * Total turnover
-* **CSV Export** - One-click trade export
-* **Visual Indicators** - Color-coded wins/losses
-
-### Access Dashboard
-
-```
-http://localhost:8080
-```
-
----
-
-## 📊 Paper Trading Execution Logic
-
-### BUY Orders
-1. Fetches market depth from Fyers
-2. Uses **best ASK price** (seller's offer)
-3. Records trade at that price
-4. Updates position immediately
-
-### SELL Orders
-1. Fetches market depth from Fyers
-2. Uses **best BID price** (buyer's offer)
-3. Records trade at that price
-4. Matches with pending buys (FIFO)
-5. Creates trade record with P&L
-
-### Price Updates
-* Continues to fetch real-time LTP
-* Updates MTM P&L for open positions
-* Same as real trading mode
-
----
-
-## 📝 Trade History & Analytics
-
-### Session Statistics (Paper Mode)
-
-Displayed in real-time on dashboard:
-
-* **Net P&L** - Total profit/loss for the session
-* **Total Trades** - Number of completed round trips
-* **Win Rate** - Percentage of profitable trades
-* **Winning/Losing Trades** - Count of each
-* **Total Turnover** - Sum of all trade values
-
-### Trade Ledger
-
-Each completed trade shows:
-
-| Column | Description |
-|--------|-------------|
-| Entry Time | Timestamp of position entry |
-| Entry Price | Average entry price |
-| Exit Time | Timestamp of position exit |
-| Exit Price | Average exit price |
-| Qty | Quantity traded |
-| Duration | Time in trade (seconds) |
-| P&L | Profit/Loss amount |
-| P&L % | Profit/Loss percentage |
-| Turnover | Total value transacted |
-
-### CSV Export
-
-* Click **"Export CSV"** button in dashboard
-* Trades saved to `trades/paper_trades_YYYYMMDD_HHMMSS.csv`
-* Import into Excel, Google Sheets, or analysis tools
-* Automatic export on application exit
-
----
-
-## 🔄 Change Instrument During Trading
-
-Press `C` (only when no open positions):
-
-```
-=== Available Instruments ===
-1. NSE:NIFTY26JAN25100CE [MARGIN]
-2. NSE:BANKNIFTY26JAN58700CE [INTRADAY]
-
-Select instrument (1-9, A-Z) or Q to quit: 2
-```
-
----
-
-## 🧠 Best Practices
-
-### Organize Instruments
-
-* 1–3 → Intraday options
-* 4–6 → Positional
-* 7–9 → Equity
-
-### Daily Routine
-
-1. Generate token (8:30 AM) - `python generate_token.py`
-2. Update weekly expiry symbols in `config.json`
-3. Start app before market open - `python main.py`
-4. Select **Paper** or **Real** mode carefully
-5. Monitor dashboard at `http://localhost:8080`
-
-### Paper Trading Tips
-
-* Test new strategies risk-free
-* Practice order execution
-* Understand market depth impact
-* Analyze trade history for patterns
-* Export and review performance metrics
-
----
-
-## 📝 Example config.json
+## 3. API Credentials & Configuration
+
+### Configuration Fields (config.json)
+
+| Field | Description |
+|-------|-------------|
+| `app_id` | Fyers API Application ID |
+| `app_secret` | Fyers API Application Secret |
+| `redirect_uri` | OAuth Redirect URI |
+| `access_token` | Access token (expires daily at 6:00 AM IST) |
+| `instruments` | List of trading instruments |
+
+### Example config.json
 
 ```json
 {
@@ -344,217 +144,396 @@ Select instrument (1-9, A-Z) or Q to quit: 2
 }
 ```
 
-## Product Type (possible values)
+### Configured Trading Instruments
 
-* **CNC** - For equity only
-* **INTRADAY** - Applicable for all segments
-* **MARGIN** - Applicable only for derivatives
-* **CO** - Cover Order
-* **BO** - Bracket Order
-* **MTF** - Margin Trading Facility
+| # | Symbol | Exchange | Lot Size | Product |
+|---|--------|----------|----------|---------|
+| 1 | `NSE:NIFTY26FEB25000CE` | NSE | 65 | MARGIN |
+| 2 | `NSE:NIFTY2620325200CE` | NSE | 65 | MARGIN |
+| 3 | `NSE:NIFTY26FEB25500PE` | NSE | 65 | MARGIN |
+| 4 | `NSE:NIFTY2620325400CE` | NSE | 65 | MARGIN |
+| 5 | `NSE:NIFTY2620325500PE` | NSE | 65 | MARGIN |
+| 6 | `NSE:SBIN-EQ` | NSE | 1 | CNC |
 
----
+### Product Types
 
-## 📝 Logs
-
-```bash
-# View logs in real-time
-tail -f trading.log
-
-# Search for errors
-grep ERROR trading.log
-
-# Search for paper trading specific logs
-grep "\[PAPER\]" trading.log
-```
+| Product | Description |
+|---------|-------------|
+| `CNC` | For equity only (Cash & Carry) |
+| `INTRADAY` | Applicable for all segments |
+| `MARGIN` | Applicable only for derivatives |
+| `CO` | Cover Order |
+| `BO` | Bracket Order |
+| `MTF` | Margin Trading Facility |
 
 ---
 
-## 🎓 Example Trading Sessions
+## 4. Important URLs
 
-### Paper Trading Session
+### Fyers API & Developer Portal
+
+| URL | Purpose |
+|-----|---------|
+| `https://myapi.fyers.in/dashboard/` | Fyers API Developer Dashboard |
+| `https://myapi.fyers.in/docsv3` | API Documentation |
+| `https://trade.fyers.in/api-login/redirect-uri/index.html` | Redirect URI |
+
+### Symbol Master Files
+
+| URL | Exchange/Segment |
+|-----|------------------|
+| `https://public.fyers.in/sym_details/NSE_FO.csv` | NSE - Equity Derivatives |
+| `https://public.fyers.in/sym_details/NSE_CM.csv` | NSE - Capital Market |
+| `https://public.fyers.in/sym_details/BSE_CM.csv` | BSE - Capital Market |
+
+### Local Application URLs
+
+| URL | Description |
+|-----|-------------|
+| `http://localhost:8080` | Web Dashboard |
+
+---
+
+## 5. Dependencies
+
 ```
-python main.py
-
-Select mode: 1 (Paper Trading)
-Press: 1 → Select first instrument
-Press: 2 → Buy 2 lots (simulated at best ask)
-Press: 1 → Buy 1 more lot
-Press: -3 → Sell 3 lots (simulated at best bid, creates trade records)
-
-View dashboard → See trade history with P&L
-Click Export → Download trades CSV
-```
-
-### Real Trading Session
-```
-python main.py
-
-Select mode: 2 (Real Trading)
-⚠️ Confirm: yes
-Press: 1 → Select first instrument
-Press: 1 → Buy 1 lot (REAL ORDER)
-Press: -1 → Sell 1 lot (REAL ORDER)
+fyers-apiv3==3.1.8
+flask==3.0.0
+flask-cors==4.0.0
 ```
 
 ---
 
-## 🔧 Troubleshooting
+## 6. Setup & Installation
 
-### Issue: "FileNotFoundError: web/index.html"
+### Prerequisites
 
-**Solution:**
+1. **Python 3.8 or higher**
+2. **Linux/Mac** (for terminal raw mode support)
+3. **Fyers Trading Account** with API access
+
+### Step-by-Step Setup
+
 ```bash
-# Verify file structure
-ls -la web/index.html
-ls -la internal/trader.py
-
-# Ensure all files are in correct locations
-```
-
-### Issue: Terminal not responding to keystrokes
-
-**Cause:** IDE console doesn't support raw terminal mode.
-
-**Solution:** Run from a proper terminal:
-```bash
-# From system terminal, not IDE console
+# Navigate to project directory
 cd ~/paper-trading-fyers
+
+# Create virtual environment
+python3 -m venv venv
+
+# Activate
 source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+---
+
+## 7. Fyers API Setup
+
+### Create Fyers App
+
+1. Visit https://myapi.fyers.in/dashboard/
+2. Click "Create App" → "Personal App"
+3. Fill in details:
+   - App Name: "Paper Trading App"
+   - Redirect URI: `https://trade.fyers.in/api-login/redirect-uri/index.html`
+4. Note your `app_id` and `app_secret`
+
+### Generate Access Token
+
+```bash
+python generate_token.py
+```
+
+**Important:** Tokens expire at 6:00 AM IST daily.
+
+---
+
+## 8. Running the Application
+
+### Start the Application
+
+```bash
 python main.py
 ```
 
-### Issue: Paper trading shows wrong prices
+### Trading Mode Selection
 
-**Cause:** Market depth fetch may have failed.
+```
+1. Paper Trading (Simulated)
+2. Real Trading (Live market)
 
-**Solution:** Check:
-1. Valid access token
-2. Symbol exists and is trading
-3. Internet connection
-4. Check `trading.log` for "[PAPER]" entries
+Select mode (1 or 2):
+```
 
-### Issue: Trade history not showing
+- Press `1` for Paper Trading (recommended)
+- Press `2` for Real Trading (requires "yes" confirmation)
 
-**Cause:** No completed round-trip trades yet.
+### Instrument Selection
 
-**Solution:**
-1. Ensure you've both bought AND sold
-2. Check position is fully closed
-3. Refresh dashboard
+Press keys 1-9 or A-Z to select instrument
 
 ---
 
-## ✅ Setup Verification Checklist
+## 9. Trading Commands (No Enter Ever)
 
-* [ ] Python 3.8+
-* [ ] Virtual environment created and activated
-* [ ] All dependencies installed (`pip install -r requirements.txt`)
-* [ ] Fyers app created
-* [ ] `config.json` updated with credentials
-* [ ] Token generated with `generate_token.py`
-* [ ] Weekly symbols updated in `config.json`
-* [ ] Run from proper terminal (not IDE)
-* [ ] Select Paper/Real mode at startup
-* [ ] Web UI opens at http://localhost:8080
-* [ ] Test order works
+| Key | Action |
+|-----|--------|
+| `1`–`9` | Buy lots |
+| `-1`–`-9` | Sell lots |
+| `--` | Close all positions |
+| `C` | Change instrument (when flat) |
+| `Q` | Quit app |
 
 ---
 
-## 📊 Trade Analytics
+## 10. Web Dashboard
 
-### Analyzing Exported Data
+### Access
 
-After exporting trades to CSV, you can analyze:
+```
+http://localhost:8080
+```
 
-1. **Win Rate** = (Winning Trades / Total Trades) × 100
-2. **Average Win** = Sum of winning P&L / Winning trades
-3. **Average Loss** = Sum of losing P&L / Losing trades
-4. **Risk-Reward Ratio** = Average Win / Average Loss
-5. **Profit Factor** = Gross Profit / Gross Loss
-6. **Average Trade Duration** = Total duration / Total trades
+### Features
 
-### Excel/Google Sheets Formulas
+- Real-time Position Panel
+- Live MTM P&L
+- Order History
+- Activity Logs
+- Session Statistics (Paper mode)
+- Trade Ledger (Paper mode)
+- CSV Export (Paper mode)
 
-```excel
-# Win Rate
-=COUNTIF(H:H,">0")/COUNTA(H:H)*100
+---
 
-# Average Win
-=AVERAGEIF(H:H,">0")
+## 11. Paper Trading Features
 
-# Average Loss
-=AVERAGEIF(H:H,"<0")
+### Execution Logic
 
-# Profit Factor
-=SUMIF(H:H,">0")/ABS(SUMIF(H:H,"<0"))
+**BUY Orders:**
+- Fetches market depth
+- Uses best ASK price
+- Updates position
+
+**SELL Orders:**
+- Fetches market depth
+- Uses best BID price
+- Matches with pending buys (FIFO)
+- Creates trade record with P&L
+
+---
+
+## 12. Trade History & Analytics
+
+### Session Statistics
+
+- Net P&L
+- Total Trades
+- Win Rate
+- Winning/Losing Trades
+- Total Turnover
+
+### CSV Export
+
+- Click "Export CSV" in dashboard
+- Saved to `trades/paper_trades_YYYYMMDD_HHMMSS.csv`
+- Auto-export on app exit
+
+---
+
+## 13. Change Instrument During Trading
+
+Press `C` (only when no open positions):
+
+```
+=== Available Instruments ===
+1. NSE:NIFTY26JAN25100CE [MARGIN]
+Select instrument: 2
 ```
 
 ---
 
-## 🔒 Important Safety Notes
+## 14. Best Practices
+
+### Daily Routine
+1. Generate token (8:30 AM) - `python generate_token.py`
+2. Update weekly expiry symbols in `config.json`
+3. Start app - `python main.py`
+4. Select Paper/Real mode
+5. Monitor dashboard at http://localhost:8080
+
+### Instrument Organization
+- 1–3 → Intraday options
+- 4–6 → Positional
+- 7–9 → Equity
+
+---
+
+## 15. Testing Guide
+
+### Test 1: Paper Trading Mode
+
+1. Start: `python main.py`
+2. Select: `1` (Paper Trading)
+3. Select Instrument: `1`
+4. Buy: `2` (2 lots)
+5. Sell: `-3` (3 lots)
+6. View Dashboard
+
+### Test 2: Verify No Real Orders
+
+1. Start in paper mode
+2. Place trades
+3. Check Fyers account - **no orders should appear**
+
+### Test 3: Real Trading (Caution!)
+
+```bash
+python main.py
+Select mode: 2
+Confirm: yes
+```
+
+⚠️ Uses real money!
+
+---
+
+## 16. Common Issues & Solutions
+
+| Issue | Solution |
+|-------|----------|
+| ModuleNotFoundError | Activate virtual environment |
+| Terminal not responding | Run from system terminal |
+| Token Expired | Run `python generate_token.py` |
+| Dashboard Not Loading | Check port 8080 |
+| Trades Not Exporting | `mkdir -p trades` |
+
+---
+
+## 17. Technical Artifacts
+
+### Runtime Commands
+
+```bash
+# Setup
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+# Daily token
+python generate_token.py
+
+# Run
+python main.py
+
+# Logs
+tail -f trading.log
+grep ERROR trading.log
+grep "[PAPER]" trading.log
+```
+
+### Performance
+
+| Operation | Time |
+|-----------|------|
+| Order (paper) | < 200ms |
+| Order (real) | < 500ms |
+| Dashboard refresh | 500ms |
+
+---
+
+## 18. Important Notes
+
+### Token Validity
+- Expires at **6:00 AM IST daily**
+- Generate new token each trading day
+
+### Terminal Requirements
+- Run from proper terminal, not IDE console
+
+### Safety Warnings
+
+**Paper Trading:** ✅ Zero risk
+**Real Trading:** ⚠️ Actual capital at risk
+
+### Symbol Updates
+- Update weekly expiry symbols every Thursday
+
+---
+
+## Example Usage Flow
 
 ### Paper Trading
-* ✅ No real money at risk
-* ✅ Perfect for learning and testing
-* ✅ Unlimited practice
-* ⚠️ Slippage may differ from real execution
+```
+1. python main.py
+2. Select: 1 (Paper)
+3. Select Instrument: 1
+4. Buy: 2
+5. Sell: -3
+6. Export: Click CSV
+7. Quit: Q
+```
 
 ### Real Trading
-* ⚠️ Uses actual capital
-* ⚠️ Real P&L impact
-* ⚠️ Cannot undo executed orders
-* ⚠️ Always verify before confirming mode
+```
+1. python main.py
+2. Select: 2 (Real)
+3. Confirm: yes
+4. Buy: 1
+5. Sell: -1
+```
 
 ---
 
-## 🤝 Support & Resources
+## Key Differences
 
-* **Fyers API Docs**: https://myapi.fyers.in/docsv3
-* **Symbol Master**: https://public.fyers.in/sym_details/
-* **Community**: FYERS API & Algo community forum
-
-
-## Symbol Master
-You can get all the latest symbols of all the exchanges from the symbol master files
-
-* NSE – Currency Derivatives:
-https://public.fyers.in/sym_details/NSE_CD.csv
-* NSE – Equity Derivatives:
-https://public.fyers.in/sym_details/NSE_FO.csv
-* NSE – Commodity:
-https://public.fyers.in/sym_details/NSE_COM.csv
-* NSE – Capital Market:
-https://public.fyers.in/sym_details/NSE_CM.csv
-* BSE – Capital Market:
-https://public.fyers.in/sym_details/BSE_CM.csv
-* BSE - Equity Derivatives:
-https://public.fyers.in/sym_details/BSE_FO.csv
-* MCX - Commodity:
-https://public.fyers.in/sym_details/MCX_COM.csv
-
-
+| Feature | Original | Paper App |
+|---------|----------|-----------|
+| Modes | Real only | Paper + Real |
+| Trade History | Orders only | Full ledger |
+| P&L Tracking | MTM | MTM + Realized |
+| Export | None | CSV |
 
 ---
 
-## 📜 License
+## Daily Workflow
 
-This is a trading utility application. Use at your own risk. No warranty provided.
+### Morning (Before Market)
+1. Generate token
+2. Update instruments
+3. Start application
+
+### End of Day
+1. Close all positions
+2. Export trades (auto on exit)
+3. Press Q to quit
+
+---
+
+## Support
+
+- **Fyers API Docs**: https://myapi.fyers.in/docsv3
+- **Symbol Master**: https://public.fyers.in/sym_details/
 
 ---
 
-## 🎯 Key Differences from Original App
+## License
 
-| Feature | Original App | Paper Trading App |
-|---------|--------------|-------------------|
-| Order Execution | Real orders via Fyers API | Simulated using market depth |
-| Risk | Real capital | Zero risk |
-| Trade History | Order history only | Complete trade ledger |
-| Analytics | Basic position tracking | Full session statistics |
-| P&L Tracking | Real-time MTM | Real-time MTM + realized P&L |
-| Export | None | CSV export of all trades |
-| Mode Selection | N/A | Paper/Real choice at startup |
+Trading utility application. Use at your own risk.
 
 ---
+
+## Conclusion
+
+A **professional-grade paper trading application**:
+- ✅ Paper + Real trading modes
+- ✅ Detailed trade analytics
+- ✅ Risk-free strategy testing
+- ✅ Seamless transition to real trading
+
+**Ready to use after setup!**
 
 **Happy Paper Trading! 🚀📈**
