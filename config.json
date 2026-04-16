@@ -1,20 +1,38 @@
 {
-  "app_id": "YOUR_APP_ID",
-  "app_secret": "YOUR_APP_SECRET",
+  "app_id": "9ZH3K009J7-100",
+  "app_secret": "RPYJRYS1XG",
   "redirect_uri": "https://trade.fyers.in/api-login/redirect-uri/index.html",
-  "access_token": "WILL_BE_FILLED_BY_GENERATE_TOKEN_SCRIPT",
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsiZDoxIiwiZDoyIiwieDowIiwieDoxIiwieDoyIl0sImF0X2hhc2giOiJnQUFBQUFCcDRDeF9wZGhNUm1nUkVSTVJqR3VUbDRCLVhIRzRqbG83N3ZaYXFMZmZDZ1NVQ3U4dXlOeG0yR3Fsa2RKNVVXM3NCdElFQXN1aWtGX1pSa2luMmdhdmJ4QlgwcGF1M2t3WGVzVTBTMHJlMlRwUWdzZz0iLCJkaXNwbGF5X25hbWUiOiIiLCJvbXMiOiJLMSIsImhzbV9rZXkiOiI1ZmUwYmU2MTkwMDVlOTA5YmM4MmY4N2RlZTBiYzJjNzJjOTUwMmE1MjM3YWUyNDc3YzZiZDQ5NyIsImlzRGRwaUVuYWJsZWQiOiJOIiwiaXNNdGZFbmFibGVkIjoiTiIsImZ5X2lkIjoiWFMwNTU2MyIsImFwcFR5cGUiOjEwMCwiZXhwIjoxNzc2Mzg1ODAwLCJpYXQiOjE3NzYyOTkxMzUsImlzcyI6ImFwaS5meWVycy5pbiIsIm5iZiI6MTc3NjI5OTEzNSwic3ViIjoiYWNjZXNzX3Rva2VuIn0.47N2SlSEyZGZGRvZ1-AmcY48G9K9BHHxGmoVFmZ7AWM",
   "instruments": [
     {
-      "symbol": "NSE:NIFTY26JAN25000CE",
+      "symbol": "NSE:NIFTY26FEB25000CE",
       "exchange": "NSE",
       "lot_size": 65,
       "product": "MARGIN"
     },
     {
-      "symbol": "NSE:BANKNIFTY26JAN58700CE",
+      "symbol": "NSE:NIFTY2620325200CE",
       "exchange": "NSE",
-      "lot_size": 30,
-      "product": "INTRADAY"
+      "lot_size": 65,
+      "product": "MARGIN"
+    },
+    {
+      "symbol": "NSE:NIFTY26FEB25500PE",
+      "exchange": "NSE",
+      "lot_size": 65,
+      "product": "MARGIN"
+    },
+    {
+      "symbol": "NSE:NIFTY2620325400CE",
+      "exchange": "NSE",
+      "lot_size": 65,
+      "product": "MARGIN"
+    },
+    {
+      "symbol": "NSE:NIFTY2620325500PE",
+      "exchange": "NSE",
+      "lot_size": 65,
+      "product": "MARGIN"
     },
     {
       "symbol": "NSE:SBIN-EQ",

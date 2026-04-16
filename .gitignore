@@ -1,2 +1,17 @@
 # Ignore venv
 venv/
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Config (optional, if sensitive)
+config.json
+
+# OS files
+.DS_Store
+
+# Trade record exports
+trades/

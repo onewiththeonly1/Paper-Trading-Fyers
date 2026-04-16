@@ -514,6 +514,27 @@ After exporting trades to CSV, you can analyze:
 * **Symbol Master**: https://public.fyers.in/sym_details/
 * **Community**: FYERS API & Algo community forum
 
+
+## Symbol Master
+You can get all the latest symbols of all the exchanges from the symbol master files
+
+* NSE – Currency Derivatives:
+https://public.fyers.in/sym_details/NSE_CD.csv
+* NSE – Equity Derivatives:
+https://public.fyers.in/sym_details/NSE_FO.csv
+* NSE – Commodity:
+https://public.fyers.in/sym_details/NSE_COM.csv
+* NSE – Capital Market:
+https://public.fyers.in/sym_details/NSE_CM.csv
+* BSE – Capital Market:
+https://public.fyers.in/sym_details/BSE_CM.csv
+* BSE - Equity Derivatives:
+https://public.fyers.in/sym_details/BSE_FO.csv
+* MCX - Commodity:
+https://public.fyers.in/sym_details/MCX_COM.csv
+
+
+
 ---
 
 ## 📜 License
